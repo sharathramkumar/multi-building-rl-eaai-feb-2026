@@ -1,0 +1,12 @@
+*debug*
+*pycache*
+.vscode/
+*.dat
+*.csv
+*.log
+*.egg-info
+*tfevents*
+*.mdl
+*.zip
+*.svg
+*png

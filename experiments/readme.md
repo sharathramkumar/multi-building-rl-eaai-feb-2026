@@ -1,0 +1,1 @@
+This directory contains the run scripts for specific experiments given in the paper. Each experiment has an associated `readme.md` for reference.

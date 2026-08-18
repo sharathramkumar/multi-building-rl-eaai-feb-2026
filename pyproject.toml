@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-building-rl-eaai-feb2026"
+authors = [
+  {name = "Sharath Ram Kumar", email = "sharath.ramkumar@ntu.edu.sg"}
+]
+maintainers = [
+  {name = "Rémy Rigo-Mariani", email = "remy.rigo-mariani@grenoble-inp.fr"},
+  {name = "Benoit Delinchant", email = "benoit.delinchant@grenoble-inp.fr"},
+  {name = "Arvind Easwaran", email = "arvinde@ntu.edu.sg"}
+]
+version = "0.1.0"
+description = "Reinforcement learning environments for multi-building energy systems, associated with the publication : https://doi.org/10.1016/j.engappai.2025.113536"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "gymnasium",
+    "stable-baselines3",
+    "sb3-contrib",
+    "dill",
+    "pyyaml",
+    "d3rlpy",
+    "tensorboard",
+    "matplotlib"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

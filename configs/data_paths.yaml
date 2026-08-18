@@ -1,0 +1,14 @@
+---
+# Paths to different data files required for the run scripts
+name: data-config
+data_root: ../data
+
+weather_data: SGP_Singapore.486980_IWEC.csv
+
+consumer_models:
+  real_models:
+    default_override : consumer_models/real_consumer_models_100.dat
+    stochastic_override : consumer_models/real_consumer_models_stochastic_override_model.dat
+    sarran_override : consumer_models/real_consumer_models_sarran_override_model.dat
+  approximate_models:
+    default_override :  consumer_models/approximate_cons_models_100_3.dat

@@ -1,0 +1,11 @@
+---
+name: baseline
+expt_tag: baseline
+
+consumer_models: 
+  type : real_models
+  override : default_override
+
+test_period:
+  start: 05/01/2022
+  end: 05/30/2022

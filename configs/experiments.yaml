@@ -1,0 +1,12 @@
+---
+name: experiment-registry
+experiment-dir: experiments
+experiments:
+  baseline : baseline
+  precooling : precooling
+  centralized_rl : centralized_rl
+  distributed_rl : distributed_rl
+  measured_input_rl : measured_input_rl
+  split_input_rl : split_input_rl
+  
+  

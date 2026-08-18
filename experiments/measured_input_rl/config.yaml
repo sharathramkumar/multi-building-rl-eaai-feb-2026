@@ -1,0 +1,32 @@
+---
+name: measured_input_rl
+expt_tag: measured_input_rl
+
+consumer_models: 
+  type : real_models
+  override : default_override
+
+train_consumer_models:
+  type: approximate_models
+  override: default_override
+
+train_period:
+  start: 03/01/2022
+  end: 04/30/2022
+
+test_period:
+  start: 05/01/2022
+  end: 05/30/2022
+
+rl_training_params:
+  seeds: [1, 2, 3]
+  actor_network_sizes: [[64, 64]]
+  critic_network_size: [64, 64]
+  # n_train_steps: 2_000_000
+  n_train_steps: 2_000
+  gamma: 0.954
+  learning_rate: 0.00003
+  n_prev_load: 8
+  n_prev_weather: 4
+  cons_factor_offset: 0.3
+
