@@ -14,6 +14,7 @@ This repository contains the code required to reproduce the results in the follo
 3. From the repository root, run the following commands for each experiment
     - `python scripts/run_training.py --list` - lists all available experiments
     - `python scripts/run_training.py <experiment_tag>` - run the specified experiment
+4. Visualize the results and generate plots using the notebooks in the `notebooks` directory once all the experiments have been run.
 
 #### Citation:
 ```
