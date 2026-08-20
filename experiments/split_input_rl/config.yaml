@@ -22,8 +22,9 @@ rl_training_params:
   seeds: [1, 2, 3]
   actor_network_sizes: [[64, 64]]
   critic_network_size: [64, 64]
-  # n_train_steps: 2_000_000
-  n_train_steps: 2_000
+  n_train_steps: 2_000_000
+  # reduce n_steps for a dry run
+  # n_train_steps: 2_000
   gamma: 0.954
   learning_rate: 0.00003
   n_prev_load: 8

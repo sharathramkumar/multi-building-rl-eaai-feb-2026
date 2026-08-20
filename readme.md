@@ -10,11 +10,13 @@ This repository contains the code required to reproduce the results in the follo
 1. In a fresh Python (Python >=3.12) environment, run the following commands:
     - `pip install torch --index-url https://download.pytorch.org/whl/cpu`
     - `pip install -e .`
-2. There are 6 experiments contained in the project. Each one is in a dedicated subdirectory under `experiments` in the repo root. Please verify the configurations for each experiment (`<expt_dir>/config.yaml`) before running the experiment (Step 3). 
-3. From the repository root, run the following commands for each experiment
+2. The data required to run the experiments is available at the following link: [Link to data (DR-NTU repository)](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/XQRYSK)
+3. There are 6 experiments contained in the project. Each one is in a dedicated subdirectory under `experiments` in the repo root. Please verify the configurations for each experiment (`<expt_dir>/config.yaml`) before running the experiment (next step). 
+4. From the repository root, run the following commands for each experiment
     - `python scripts/run_training.py --list` - lists all available experiments
-    - `python scripts/run_training.py <experiment_tag>` - run the specified experiment
-4. Visualize the results and generate plots using the notebooks in the `notebooks` directory once all the experiments have been run.
+    - `python scripts/run_training.py --tag <experiment_tag>` - run the specified experiment
+        - Note : The RL experiments may take a few hours to run
+5. Visualize the results and generate plots using the notebooks in the `notebooks` directory once all the experiments have been run.
 
 #### Citation:
 ```

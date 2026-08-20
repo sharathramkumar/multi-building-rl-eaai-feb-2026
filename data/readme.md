@@ -4,4 +4,4 @@ There should be three files in the data directory to run the scripts in the repo
 2. `consumer_models/approximate_cons_models_100_3.dat` : The approximate consumer models. This is a list of 3 model objects per consumer, with estimated thermal model (1R1C) and other parameters as described in the paper.
 3. `SGP_Singapore.486980_IWEC.csv` : Weather data used for the run.
 
-Kindly contact the authors of the paper to access this data.
+The data required to run the experiments is available at the following link: [Link to data (DR-NTU repository)](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/XQRYSK)
